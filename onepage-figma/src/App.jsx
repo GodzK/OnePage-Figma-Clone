@@ -1,15 +1,17 @@
-
+import React from 'react';
 import './App.css';
-import Nav from './components/nav'
-import Header from './components/Header'
-import Landingpage1 from "./components/lp"
+import Nav from './components/nav';
+import Header from './components/Header';
+import Landingpage from './components/Landingpage';
 function App() {
   return (
-  <>
+  <div>
   <Nav/>
   <Header/>
-  <Landingpage1/>
-  </>
+  <Landingpage/>
+  </div>
+  
+  
   );
 }
 
