@@ -1,0 +1,29 @@
+
+.Landingpage-container{
+    padding-left: 4rem;
+    display: flex;
+   justify-content: space-around;
+   padding-top: 10rem;
+}
+
+.h1{
+    color: #091133;
+    font-size: 3.5rem;
+}
+h2{
+    color: #091133;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+p{
+    color: #6F7CB2;
+    font-weight: 500;
+    
+}
+.icon-lp{
+    width: 4.75rem;
+}
+.Landingpage-item{
+    display: flex;
+    
+}

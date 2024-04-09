@@ -1,0 +1,30 @@
+.price-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background: #E7ECFF;
+    padding: 10rem 0;
+    margin-top: 10rem;
+}
+
+.price-info h1, .fourty h1, .fourty p {
+    text-align: center;
+    color: #091133;
+}
+.price-info p {
+    text-align: center;
+    color: #6f7cb2;
+}
+.fourty{
+  padding: 4rem;
+}
+.fourty h1{
+    font-size: 4rem;
+}
+.price-info h1 {
+    margin-bottom: 2rem;
+}
+.price-btn p{
+    margin-left: 1rem;
+    padding: 0.6rem;
+}

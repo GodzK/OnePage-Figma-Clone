@@ -3,25 +3,17 @@
     justify-content: space-between; 
   }
 
-  .background-images {
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 20rem;
-    z-index: -20;
-   
-  }
-
   .header-image {
     height: 60rem;
     width: 90rem;
-    object-fit: cover;
+    
   }
   
   .content-container {
     position: relative; 
     padding: 2rem; 
     z-index: 1; 
+    padding-left: 6rem;
   }
  
   .btn-header1 {

@@ -1,0 +1,40 @@
+.h1{
+    color: #091133;
+    font-size: 3.5rem;
+}
+Landingpage-text p{
+  line-height: 26px;
+}
+.intro-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+}
+.powerful-second {
+    display: flex;
+    justify-content: space-between;
+    height: 570px;
+    align-items: center;
+  }.pw-left {
+    width: 540px;
+  }
+  
+  .pw-left img {
+    width: 100%;
+  }
+  
+  .pw-right {
+    width: 445px;
+  }
+  
+  .pw-right h3 {
+    color: #091133;
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+  
+  .pw-right p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+  }

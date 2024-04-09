@@ -3,18 +3,28 @@ import "./header.css";
 
 function Header() {
   return (
-    <div className="header-container">
+    <header>
       <div className="content-container">
-        <h1 className="sm:text-4xl md:text-5xl lg:text-6xl" style={{ marginTop: "10rem", marginLeft: "2rem" }}>
+        <h1
+          className="sm:text-4xl md:text-5xl lg:text-6xl"
+          style={{ marginTop: "10rem", marginLeft: "2rem" }}
+        >
           Introduce Your Product <br />
           Quickly & Effectively
         </h1>
         <br />
-        <p style={{ color: "#505F98", fontWeight: "500", marginLeft: "2rem" }} className="paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur deserunt amet quia <br/>
-          sint facilis ex dolor accusantium nesciunt, debitis reprehenderit culpa in reiciendis <br/>
-          distinctio fugiat excepturi explicabo! Maxime temporibus placeat ducimus<br/>ad sunt facere 
-          atque et dolor.
+        <p
+          style={{ color: "#505F98", fontWeight: "500", marginLeft: "2rem" }}
+          className="paragraph"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+          deserunt amet quia <br />
+          sint facilis ex dolor accusantium nesciunt, debitis reprehenderit
+          culpa in reiciendis <br />
+          distinctio fugiat excepturi explicabo! Maxime temporibus placeat
+          ducimus
+          <br />
+          ad sunt facere atque et dolor.
         </p>
         <br />
         <br />
@@ -32,11 +42,8 @@ function Header() {
             Learn More
           </button>
         </div>
-      </div> 
-       <div className="background-images">
-        <img src="./images/fm1.svg" alt="" className="header-image" />
       </div>
-    </div>
+    </header>
   );
 }
 
